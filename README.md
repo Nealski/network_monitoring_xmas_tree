@@ -10,3 +10,10 @@ Gunicorn running Flask with nginx proxy with SSL certs (that detail not included
 
 ![detail2](https://user-images.githubusercontent.com/31857596/207870726-10c14ab3-a30a-4398-88ad-188939d4a2aa.png)
 
+ENVs required
+
+username = os.environ['WEBHOOK_USERNAME']
+password = os.environ['WEBHOOK_PASSWORD']
+vmanage_host = os.environ['VMANAGE_HOST']
+vmanage_username = os.environ['VMANAGE_USERNAME']
+vmanage_password = os.environ['VMANAGE_PASSWORD']
